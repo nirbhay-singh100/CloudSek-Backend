@@ -10,6 +10,10 @@
 
 # Prequisites
 - Install [Node.js](https://nodejs.org/en)
+- Account on MongoDB Atlas (Free Tier)
+
+# Configuring MongoDB Atlas
+- After the account is created, Go to the 'Database Access' in Left Navbar and create new user. Please remember the username and password.
 
 # Getting Started
 - Clone the repository
@@ -38,8 +42,12 @@ cd cloudSek-Backend/server
 ```
 - Install dependencies
 ```
-npm isntall
+npm install
 ```
+- Make a .env file by referring through .env.example
+   - In DB_HOST put the credentials created in MongoDB Atlas
+   - Give any name to DB_NAME
+   - Give any random string for SECRET_KEY
 - Run the server
 ```
 nodemon app.js
