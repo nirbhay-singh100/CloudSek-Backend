@@ -6,7 +6,7 @@ const userRoutes = require("./routes/authenticationRoutes");
 const postRoutes = require("./routes/postAndCommentRoutes");
 const cors = require("cors");
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 app.use(cors({ credentials: true, origin: true }));
 app.use(express.json());

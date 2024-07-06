@@ -70,6 +70,14 @@ const Login = () => {
         <p>New user ?</p>
         <Link to="/register">Register</Link>
       </form>
+      <div>
+        <br />
+        <br />
+        <br />
+        <h3>Testing credentials</h3>
+        <h4>username: test</h4>
+        <h4>password: 1234</h4>
+      </div>
     </div>
   );
 };

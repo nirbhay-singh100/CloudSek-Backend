@@ -117,18 +117,10 @@ const Home = () => {
         <br />
       </div>
       <div className="allPosts">
-        {allPosts.reverse().map((singlePost) => (
+        {allPosts.map((singlePost) => (
           <>
             <div>username: {singlePost.ownerUsername}</div>
-            {/* <div>
-              {" "}
-              post:{" "}
-              {hyperlink ? (
-                <a href={singlePost.postContent}>{singlePost.postContent}</a>
-              ) : (
-                <div>{singlePost.postContent}</div>
-              )}
-            </div> */}
+
             <div>post: {singlePost.postContent}</div>
             <form name="commentForm">
               <input
@@ -167,7 +159,7 @@ const Home = () => {
             </form>
             <br />
             <div>
-              {singlePost.allComments.reverse().map((comment) => (
+              {singlePost.allComments.map((comment) => (
                 <>
                   <div>
                     {}
