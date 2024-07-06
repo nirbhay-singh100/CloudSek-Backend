@@ -5,6 +5,9 @@
 # Architecture
 ![Design](https://github.com/nirbhay-singh100/CloudSek-Backend/assets/112863228/89be74bd-142d-4df3-b0c2-09b377188049)
 
+# Documentation Link
+[Click Here ](https://documenter.getpostman.com/view/30888392/2sA3e1AA2t)
+
 # Prequisites
 - Install [Node.js](https://nodejs.org/en)
 
@@ -41,8 +44,7 @@ npm isntall
 ```
 nodemon app.js
 ```
-# Documentation Link
-[Click Here ](https://documenter.getpostman.com/view/30888392/2sA3e1AA2t)
+
 
 
 
