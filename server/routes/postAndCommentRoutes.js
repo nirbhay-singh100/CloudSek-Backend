@@ -25,6 +25,7 @@ const router = express.Router();
 // on Home Page of the client
 //
 //
+// Path : "/application/allPosts"
 router.get("/allPosts", verifyToken, allPosts);
 
 //
