@@ -14,7 +14,7 @@
 # Getting Started
 - Clone the repository
 ```
-https://github.com/nirbhay-singh100/CloudSek-Backend.git
+git clone https://github.com/nirbhay-singh100/CloudSek-Backend.git
 ```
 - Navigate through Client
 ```
