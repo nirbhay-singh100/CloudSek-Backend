@@ -1,5 +1,5 @@
 # Application walkthrough
-[![watch-video](https://cdn.loom.com/sessions/thumbnails/dcf9ba2961524db18fbe1b21a311746e-with-play.gif)](https://www.loom.com/share/dcf9ba2961524db18fbe1b21a311746e?sid=4ea2fce6-a7fa-4273-bde2-a6c890eb28cc)
+[![watch-video](https://cdn.loom.com/sessions/thumbnails/caaafd2ac1ed41c783a69845340fbec3-with-play.gif)](https://www.loom.com/share/caaafd2ac1ed41c783a69845340fbec3?sid=d5e5e2a2-16af-4c14-b0ce-2334f2115656)
 
 
 # Architecture
