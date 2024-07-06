@@ -16,39 +16,39 @@
 - After the account is created, Go to the 'Database Access' in Left Navbar and create new user. Please remember the username and password.
 
 # Getting Started
-- Clone the repository
+### Clone the repository
 ```
 git clone https://github.com/nirbhay-singh100/CloudSek-Backend.git
 ```
-- Navigate through Client
+### Navigate through Client
 ```
 cd cloudSek-Backend/client
 ```
 
-- Install dependencies
+### Install dependencies
 ```
 npm install
 ```
 
-- Run the client
+### Run the client
 ```
 npm start
 ```
 
-- Open another terminal
-- Navigate through server
+### Open another terminal
+### Navigate through server
 ```
 cd cloudSek-Backend/server
 ```
-- Install dependencies
+### Install dependencies
 ```
 npm install
 ```
-- Make a .env file by referring through .env.example
+### Make a .env file by referring through .env.example
    - In DB_HOST put the credentials created in MongoDB Atlas
    - Give any name to DB_NAME
    - Give any random string for SECRET_KEY
-- Run the server
+### Run the server
 ```
 nodemon app.js
 ```
